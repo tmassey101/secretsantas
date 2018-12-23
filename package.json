@@ -4,7 +4,8 @@
   "description": "Secret Santa web app - connected to MS Azure",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tmassey101/secretsantas/issues"
   },
-  "homepage": "https://github.com/tmassey101/secretsantas#readme"
+  "homepage": "https://github.com/tmassey101/secretsantas#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
